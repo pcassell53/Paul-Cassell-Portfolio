@@ -17,6 +17,7 @@ hr {
 #topAboutSectionText {
     border-left: 4px solid black;
     padding-left: 15px;
+    color: white;
 }
 
 #bottomContactSection {
@@ -109,6 +110,18 @@ hr {
     #aboutContainer p {
         font-size: 18px;
     }
-    
 
+    #topAboutSectionText {
+        color: black;
+        border-left: 4px solid black;
+    }
+}
+
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    /* Styles */
 }
