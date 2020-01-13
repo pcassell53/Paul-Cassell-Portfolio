@@ -1,0 +1,100 @@
+html, body {
+	background: #521209;
+	background-color: #521209;
+	font-family: 'CaslonGraD';
+	color: #FFA69E;
+}
+
+hr {	
+	border: 0;
+	border-top: 3px double;
+}
+
+a:hover {
+	text-decoration: none; 
+}
+
+.mainPageImage {
+	width: 30vw;
+	box-shadow: 10px 10px #1E0300;
+	border: 1px solid #1E0300;
+}
+
+.imageGallery {
+	width: 30vw;
+	box-shadow: 10px 10px #1E0300;
+	border: 1px solid #1E0300;
+	margin-bottom: 40px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15vw;
+  color: #FFA69E;
+  border-radius: 15px;
+}
+
+.subTitleText {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 11px;
+}
+
+.bottomLogo {
+	text-align: center;
+	font-size: 5vw;
+	margin-bottom: 25px;
+}
+
+.pictureNumber {
+	text-align: left;
+	font-size: 3vw;
+}
+
+.articleTitles {
+	font-size: 5vw;
+	color: #FFA69E;
+	transition: 0.4s;
+}
+
+.articleTitles:hover {
+	color: #1E0300;
+}
+
+.authorText {
+	font-size: 4vw;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+	background-color: #521209;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #FFA69E;
+	transition: 0.2s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #1E0300;
+}
+
+#imageWithLogo {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.blogPostPic {
+	width: 25vw;
+	box-shadow: 10px 10px #1E0300;
+	border: 1px solid #1E0300;
+	margin: 20px;
+	float: right;
+}
+
+#articleTitlesBlogPost1 {
+	font-size: 40px;
+	color: #FFA69E;
+}

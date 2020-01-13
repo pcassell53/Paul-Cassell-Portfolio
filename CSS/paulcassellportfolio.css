@@ -1,0 +1,114 @@
+html,
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+hr {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px #888888;
+    width: 60%;
+}
+
+#topAboutSection {
+    padding-top: 170px;
+    padding-bottom: 150px;
+}
+
+#topAboutSectionText {
+    border-left: 4px solid black;
+    padding-left: 15px;
+}
+
+#bottomContactSection {
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+
+#offsetSquare {
+    background-color: #2541B2;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    left: 130px;
+    bottom: 100px;
+    border-radius: 6px;
+    z-index: -1;
+}
+
+#secondOffsetSquare {
+    background-color: #FF5964;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    right: 140px;
+    top: 100px;
+    border-radius: 6px;
+    z-index: -2;
+}
+
+#secondRow {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-top: 140px;
+    background-color: #CFDBD5;
+}
+
+#bootstrapLogo {
+    width: 80%;
+}
+
+#sassLogo {
+    width: 70%;
+}
+
+#aboutContainer {
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#aboutContainer p {
+    font-size: 16px;
+}
+
+.cassellButton {
+    background-color: #35A7FF;
+    transition: 0.2s;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+}
+
+.cassellEmailCard {
+    border: 1px solid black;
+    box-shadow: 5px 10px;
+}
+
+.skillsImages {
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    #bottomContactSection {
+        background-color: #FFE74C;
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    #secondRow {
+        margin-top: 0;
+    }
+
+    #topAboutSection {
+        padding-top: 120px;
+        padding-bottom: 150px;
+    }
+
+    #aboutContainer p {
+        font-size: 18px;
+    }
+    
+
+}
