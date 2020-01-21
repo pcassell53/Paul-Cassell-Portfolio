@@ -10,18 +10,18 @@ hr {
 }
 
 #topAboutSection {
-    padding-top: 170px;
+    padding-top: 150px;
     padding-bottom: 150px;
 }
 
 #topAboutSectionText {
     border-left: 4px solid black;
-    padding-left: 15px;
+    padding-left: 10px;
     color: white;
 }
 
 #bottomContactSection {
-    padding-top: 180px;
+    padding-top: 150px;
     padding-bottom: 150px;
 }
 
@@ -64,7 +64,7 @@ hr {
 
 #aboutContainer {
     border: 3px solid black;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -120,5 +120,21 @@ hr {
 @media only screen and (max-width: 1024px) {
     #topAboutSectionText {
         color: black;
+    }
+
+    #offsetSquare {
+        background-color: #2541B2;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        left: 50px;
+        bottom: 50px;
+        border-radius: 10px;
+        z-index: -1;
+    }
+
+    #secondOffsetSquare {
+        display: none;
+        background-color: rgba(0, 0, 0, 0);
     }
 }
