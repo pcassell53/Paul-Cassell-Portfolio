@@ -63,10 +63,16 @@ hr {
 
 #bootstrapLogo {
     width: 80%;
+    height: 95%;
 }
 
 #sassLogo {
     width: 70%;
+}
+
+#photoshopLogo {
+    width: 50%;
+    height: 90%;
 }
 
 #aboutContainer {
