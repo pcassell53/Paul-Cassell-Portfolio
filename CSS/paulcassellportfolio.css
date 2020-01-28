@@ -6,7 +6,6 @@ body {
 hr {
     background: rgba(0, 0, 0, 0.5);
     box-shadow: 1px 1px #888888;
-    width: 60%;
 }
 
 #topAboutSection {
@@ -73,6 +72,18 @@ hr {
 #photoshopLogo {
     width: 50%;
     height: 90%;
+}
+
+#mySkills {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 5px 15px;
+}
+
+#myProcess {
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 7px 15px;
 }
 
 #aboutContainer {
