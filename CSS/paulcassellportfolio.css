@@ -35,6 +35,17 @@ hr {
     z-index: -1;
 }
 
+#offsetCircle {
+    background-color: #FFD23F;
+    position: absolute;
+    top: 0px;
+    right: 250px;
+    left: 0px;
+    bottom: 330px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
 #secondOffsetSquare {
     background-color: #FF5964;
     position: absolute;
@@ -96,13 +107,38 @@ hr {
     font-size: 16px;
 }
 
+#cassellEmailForm {
+    border: 1px solid black;
+    box-shadow: 5px 10px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#contactFormRightColumnText {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+} 
+
+#aboutMeParagraph {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
 .cassellButton {
-    background-color: #35A7FF;
-    transition: 0.2s;
-    font-size: 18px;
+    background-color: black;
+    transition: 0.4s;
+    font-size: 20px;
     border-radius: 5px;
     padding: 5px 15px;
     color: white;
+}
+
+.cassellButton:hover {
+    background-color: white;
+    color: black;
 }
 
 .cassellEmailCard {

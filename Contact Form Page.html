@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Paul Cassell HTML CSS Email Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/v4-shims.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/paulcassellportfolio.css">
+</head>
+
+<body>
+    <section class="container">
+        <nav class="navbar navbar-light navbar-expand-md" id="mainNavbar" data-aos="fade-down">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    Paul.
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
+                    aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navLinks">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="Paul Cassell Portfolio Page.html" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.linkedin.com/in/paul-cassell-225308a2/" class="nav-link">LinkedIn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/pcassell53" class="nav-link">Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-up" id="emailFormColumn">
+                <div id="cassellEmailForm">
+                    <h1 class="text-center">Contact Me</h1>
+                    <form class="contact-form" data-netlify="true" method="POST">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control" placeholder="First Name" name="firstName">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" placeholder="Last Name" name="lastName">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" name="emailAddress"
+                                    aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="text" class="form-control" placeholder="Phone Number" name="phoneNumber">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="subject">Subject</label>
+                                <input type="text" class="form-control" placeholder="Subject" name="subject">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" name="message"></textarea>
+                        </div>
+                        <div class="field">
+                            <div data-netlify-recaptcha="true"></div>
+                        </div>
+                        <div class="d-flex justify-content-center pt-2">
+                            <button type="submit" name="submit" class="cassellButton">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 d-none d-lg-block">
+                <div id="contactFormRightColumnText">
+                    <div class="d-none d-lg-block" id="offsetCircle" data-aos="fade"></div>
+                    <h1 data-aos="fade-left">Hello!</h1>
+                    <h3 data-aos="fade-left">Thank you for reaching out to me. I will respond to any business inqueries as soon as possible.</h3>
+                    <h2 data-aos="fade-left">Sincerely,<br><i>Paul Cassell</i></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="Javascript/paulcassellportfolio.js"></script>
+</body>
+
+</html>
