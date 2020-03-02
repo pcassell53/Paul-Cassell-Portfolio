@@ -126,6 +126,14 @@ hr {
     font-weight: 500;
 }
 
+#contactEnvelope {
+    color: black;
+    transition: 0.3s;
+}
+
+#contactEnvelope:hover {
+    color: #FFD23F;
+}
 
 .cassellButton {
     background-color: black;
