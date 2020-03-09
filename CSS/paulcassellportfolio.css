@@ -122,8 +122,7 @@ hr {
 } 
 
 #aboutMeParagraph {
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 32px;
 }
 
 #contactEnvelope {
@@ -133,6 +132,19 @@ hr {
 
 #contactEnvelope:hover {
     color: #FFD23F;
+}
+
+#aboutMe {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 7px;
+    padding:4px 10px;
+    border-radius:3px;
+    transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -webkit-transform: skew(-10deg);
 }
 
 .cassellButton {
@@ -147,6 +159,7 @@ hr {
 .cassellButton:hover {
     background-color: white;
     color: black;
+    cursor: pointer;
 }
 
 .cassellEmailCard {
