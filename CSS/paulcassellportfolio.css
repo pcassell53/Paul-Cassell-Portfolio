@@ -76,15 +76,6 @@ hr {
     height: 95%;
 }
 
-#sassLogo {
-    width: 70%;
-}
-
-#photoshopLogo {
-    width: 50%;
-    height: 90%;
-}
-
 #mySkills {
     border: 2px solid black;
     border-radius: 6px;
@@ -147,6 +138,12 @@ hr {
     -webkit-transform: skew(-10deg);
 }
 
+
+.skillsLogos {
+    width: 50%;
+    height: 90%;
+}
+
 .cassellButton {
     background-color: black;
     transition: 0.4s;
@@ -167,9 +164,6 @@ hr {
     box-shadow: 5px 10px;
 }
 
-.skillsImages {
-    width: 40%;
-}
 
 @media only screen and (max-width: 600px) {
     #bottomContactSection {
