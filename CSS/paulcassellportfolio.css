@@ -41,7 +41,7 @@ hr {
     top: 0px;
     right: 250px;
     left: 0px;
-    bottom: 330px;
+    bottom: 280px;
     border-radius: 50%;
     z-index: -1;
 }
@@ -78,14 +78,26 @@ hr {
 
 #mySkills {
     border: 2px solid black;
-    border-radius: 6px;
-    padding: 5px 15px;
+    font-weight: 700;
+    padding: 7px;
+    padding:4px 10px;
+    border-radius:3px;
+    transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -webkit-transform: skew(-10deg);
 }
 
 #myProcess {
     border: 2px solid white;
-    border-radius: 6px;
-    padding: 7px 15px;
+    font-weight: 700;
+    padding: 7px;
+    padding:4px 10px;
+    border-radius:3px;
+    transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -webkit-transform: skew(-10deg);
 }
 
 #aboutContainer {
@@ -162,6 +174,12 @@ hr {
 .cassellEmailCard {
     border: 1px solid black;
     box-shadow: 5px 10px;
+}
+
+.processBox {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 
