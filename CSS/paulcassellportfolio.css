@@ -41,7 +41,7 @@ hr {
     top: 0px;
     right: 250px;
     left: 0px;
-    bottom: 315px;
+    bottom: 290px;
     border-radius: 50%;
     z-index: -1;
 }
@@ -150,6 +150,9 @@ hr {
     -webkit-transform: skew(-10deg);
 }
 
+#cassellLogo {
+    width: 25%;
+}
 
 .skillsLogos {
     width: 50%;
@@ -207,6 +210,10 @@ hr {
     #topAboutSectionText {
         color: black;
         border-left: 4px solid black;
+    }
+
+    #cassellLogo {
+        width: 70%;
     }
 }
 
