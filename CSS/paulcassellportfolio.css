@@ -154,6 +154,12 @@ hr {
     width: 70%;
 }
 
+@-moz-document url-prefix() { 
+    #cassellLogo {
+       width: 245px;
+    }
+}
+
 .skillsLogos {
     width: 50%;
     height: 90%;
