@@ -13,6 +13,21 @@ hr {
     padding-bottom: 150px;
 }
 
+#myNameIs {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#paulCassell {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#webDesignerAndDeveloper {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
 #topAboutSectionText {
     border-left: 4px solid black;
     padding-left: 10px;
@@ -126,6 +141,7 @@ hr {
 
 #aboutMeParagraph {
     font-size: 22px;
+    font-weight: 500;
 }
 
 #contactEnvelope {
@@ -216,6 +232,14 @@ hr {
     #topAboutSectionText {
         color: black;
         border-left: 4px solid black;
+    }
+    
+    #webDesigner {
+        color: #2541B2;
+    }
+
+    #developer {
+        color: #FF5964;
     }
 
     #cassellLogo {
