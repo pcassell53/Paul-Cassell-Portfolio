@@ -93,6 +93,7 @@ hr {
 
 #mySkills {
     border: 2px solid black;
+    font-size: 60px;
     font-weight: 700;
     padding: 7px;
     padding:4px 10px;
@@ -106,6 +107,7 @@ hr {
 #myProcess {
     border: 2px solid white;
     font-weight: 700;
+    font-size: 60px;
     padding: 7px;
     padding:4px 10px;
     border-radius:3px;
@@ -174,11 +176,48 @@ hr {
     #cassellLogo {
        width: 245px;
     }
+
+    .skillsLogos {
+        width: 245px;
+    }
+    
+    #adobeToolbox {
+        width: 245px;
+    }
+
+    #sassIllustration {
+        width: 245px;
+    }
+    
+    #cssIllustration {
+        width: 245px;
+    }
 }
 
 .skillsLogos {
-    width: 50%;
-    height: 90%;
+    width: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#adobeToolbox {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sassIllustration {
+    width: 70%;
+    height: 85%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#cssIllustration {
+    width: 70%;
+    height: 85%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .cassellButton {
