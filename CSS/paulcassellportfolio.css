@@ -213,6 +213,14 @@ hr {
     margin-bottom: 5px;
 }
 
+.logoPicture {
+    cursor: pointer;
+}
+
+#catIllustration {
+    padding-top: 60px;
+}
+
 #cssIllustration {
     width: 70%;
     height: 85%;
