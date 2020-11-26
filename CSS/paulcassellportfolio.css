@@ -5,12 +5,30 @@ body {
 
 hr {
     background: rgba(0, 0, 0, 0.5);
-    box-shadow: 1px 1px #888888;
+    box-shadow: 1px 1px black;
+    width: 80%;
+}
+
+#mainNavbar {
+    background-color: white;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
 #topAboutSection {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#introRow {
+    margin-top: 60px;
+}
+
+#graphicDesignTopRow {
+    margin-top: 100px;
+}
+
+#contactFullRow {
+    margin-top: 80px;
 }
 
 #myNameIs {
@@ -31,90 +49,37 @@ hr {
 #topAboutSectionText {
     border-left: 4px solid black;
     padding-left: 10px;
-    color: white;
+    color: black;
 }
 
 #bottomContactSection {
-    padding-top: 150px;
-    padding-bottom: 150px;
-}
-
-#offsetSquare {
-    background-color: #2541B2;
-    position: absolute;
-    top: 0px;
-    right: 100px;
-    left: 130px;
-    bottom: 100px;
-    border-radius: 6px;
-    z-index: -1;
-}
-
-#offsetCircle {
-    background-color: #FFD23F;
-    position: absolute;
-    top: 0px;
-    right: 250px;
-    left: 0px;
-    bottom: 310px;
-    border-radius: 50%;
-    z-index: -1;
-}
-
-#secondOffsetSquare {
-    background-color: #FF5964;
-    position: absolute;
-    bottom: 0px;
-    left: 100px;
-    right: 140px;
-    top: 100px;
-    border-radius: 6px;
-    z-index: -2;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #secondRow {
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 100px;
-    background-color: #CFDBD5;
+    margin-top: 20px;
+    background-color: #96BDC6;
 }
 
 #thirdRow {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #292F36;
-    color: white;
-}
-
-#bootstrapLogo {
-    width: 80%;
-    height: 95%;
+    background-color: #FEE440;
+    color: black;
 }
 
 #mySkills {
-    border: 2px solid black;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
-    padding: 7px;
-    padding:4px 10px;
-    border-radius:3px;
-    transform: skew(-10deg);
-    -o-transform: skew(-10deg);
-    -moz-transform: skew(-10deg);
-    -webkit-transform: skew(-10deg);
+    color: black;
 }
 
 #myProcess {
-    border: 2px solid white;
     font-weight: 700;
-    font-size: 60px;
-    padding: 7px;
-    padding:4px 10px;
-    border-radius:3px;
-    transform: skew(-10deg);
-    -o-transform: skew(-10deg);
-    -moz-transform: skew(-10deg);
-    -webkit-transform: skew(-10deg);
+    font-size: 70px;
 }
 
 #aboutContainer {
@@ -151,10 +116,6 @@ hr {
     transition: 0.3s;
 }
 
-#contactEnvelope:hover {
-    color: #FFD23F;
-}
-
 #aboutMe {
     background-color: black;
     color: white;
@@ -172,6 +133,52 @@ hr {
     width: 70%;
 }
 
+#introductionSVG {
+    width: 70%;
+}
+
+#bottomFooter {
+    text-align: center;
+    color: #ffffff;
+    background-color: #424651;
+}
+
+a #dribbbleFooter {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+a #linkedinFooter {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+a #githubFooter {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+
+a #dribbbleFooter:hover {
+    color: #B3B3B3;
+}
+
+a #linkedinFooter:hover {
+    color: #B3B3B3;
+}
+
+a #githubFooter:hover {
+    color: #B3B3B3;
+}
+
+
+
 @-moz-document url-prefix() { 
     #cassellLogo {
        width: 245px;
@@ -184,33 +191,16 @@ hr {
     #adobeToolbox {
         width: 245px;
     }
-
-    #sassIllustration {
-        width: 245px;
-    }
-    
-    #cssIllustration {
-        width: 245px;
-    }
 }
 
 .skillsLogos {
-    width: 65%;
+    width: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 #adobeToolbox {
-    width: 70%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#sassIllustration {
-    width: 70%;
-    height: 85%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    width: 60%;
 }
 
 .logoPicture {
@@ -221,11 +211,12 @@ hr {
     padding-top: 60px;
 }
 
-#cssIllustration {
-    width: 70%;
-    height: 85%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.nav-link {
+    font-size: 20px;
+}
+
+#navLinks {
+    color: black;
 }
 
 .cassellButton {
@@ -235,6 +226,10 @@ hr {
     border-radius: 5px;
     padding: 5px 15px;
     color: white;
+}
+
+.processCopy {
+    font-size: 20px;
 }
 
 .cassellButton:hover {
@@ -249,18 +244,33 @@ hr {
 }
 
 .processBox {
-    border: 2px solid white;
+    border: 4px solid black;
     padding: 20px;
     border-radius: 10px;
+    margin: 15px;
+    box-shadow: 5px 10px;
 }
 
+.processTitle {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.proccessNumber {
+}
 
 @media only screen and (max-width: 600px) {
     #bottomContactSection {
-        background-color: #FFE74C;
-        text-align: center;
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #mySkills {
+        font-size: 40px;
+    }
+
+    #myProcess {
+        font-size: 40px;
     }
 
     #secondRow {
@@ -268,12 +278,8 @@ hr {
     }
 
     #topAboutSection {
-        padding-top: 150px;
-        padding-bottom: 150px;
-    }
-
-    #aboutContainer p {
-        font-size: 18px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     #topAboutSectionText {
@@ -286,7 +292,7 @@ hr {
     }
 
     #developer {
-        color: #FF5964;
+        color: #FFE74C;
     }
 
     #cassellLogo {
