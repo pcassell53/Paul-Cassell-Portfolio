@@ -205,8 +205,56 @@ a #githubFooter:hover {
     margin-bottom: 10px;
 }
 
+.aboutMeText {
+    font-size: 20px;
+}
+
+#hAboutMeText {
+    font-size: 30px;
+    font-weight: 500;
+    color: #FF5964;
+}
+
+#iAboutMeText {
+    font-size: 30px;
+    font-weight: 500;
+    color: #96BDC6;
+}
+
+#aboutMeTitle {
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 50px;
+}
+
+#aboutMeProfessional {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#aboutMePersonal {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#backgroundLink {
+    text-decoration: underline;
+    color: black;
+    transition: 0.2s;
+}
+
+#backgroundLink:hover {
+    text-decoration: none;
+    color: #FEE440;
+}
+
 #adobeToolbox {
     width: 60%;
+}
+
+#aboutMeColumn {
+    margin-top: 75px;
 }
 
 .logoPicture {
@@ -242,6 +290,10 @@ a #githubFooter:hover {
     background-color: white;
     color: black;
     cursor: pointer;
+}
+
+#turtleneckPortraitAboutMe {
+    margin-top: 100px;
 }
 
 .cassellEmailCard {
