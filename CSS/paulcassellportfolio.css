@@ -146,6 +146,14 @@ hr {
     position: absolute;
 }
 
+#bottomFooter2 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #424651;
+    position: absolute;
+    margin-top: 80px;
+}
+
 a #dribbbleFooter {
     text-decoration: none;
     padding-left: 5px;
