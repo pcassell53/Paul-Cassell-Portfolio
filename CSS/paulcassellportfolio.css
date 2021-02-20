@@ -225,6 +225,15 @@ a #githubFooter:hover {
     font-size: 20px;
 }
 
+.projectTitle {
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #hAboutMeText {
     font-size: 30px;
     font-weight: 500;
@@ -457,6 +466,15 @@ a #githubFooter:hover {
 
     #maynoothLogo2 {
         width: 100%;
+    }
+
+    .projectTitle {
+        font-weight: 700;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
