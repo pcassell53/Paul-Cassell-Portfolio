@@ -415,6 +415,11 @@ a #githubFooter:hover {
     transition: 0.2s;
 }
 
+.projectTitleText {
+    font-size: 2em; 
+    font-weight: bolder;
+}
+
 #maynoothTableOfContentsButton:hover {
     text-decoration: none;
     color: #F3B541;
