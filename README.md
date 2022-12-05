@@ -1,2 +1,2 @@
 # Paul-Cassell-Portfolio
-Portfolio Page for all of the HTML CSS Email and Landing Page projects I have made
+Portfolio Page for all of the projects I have made
