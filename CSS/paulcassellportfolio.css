@@ -1,52 +1,59 @@
 .navbar-light .navbar-toggler {
-    border-color:  rgba(0,0,0,0);
+    border-color: rgba(0, 0, 0, 0);
 }
 
 .menu-btn {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  height: 60px;
-  cursor: pointer;
-  transition: all .5s ease-in-out;
-  border: 3px solid #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: 3px solid #fff;
 }
+
 .menu-btn__burger {
-  width: 50px;
-  height: 6px;
-  background: #000;
-  border-radius: 5px;
-  transition: all .5s ease-in-out;
+    width: 50px;
+    height: 6px;
+    background: #000;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
 }
+
 .menu-btn__burger::before,
 .menu-btn__burger::after {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 6px;
-  background: #000;
-  border-radius: 5px;
-  transition: all .5s ease-in-out;
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background: #000;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
 }
+
 .menu-btn__burger::before {
-  transform: translateY(-16px);
+    transform: translateY(-16px);
 }
+
 .menu-btn__burger::after {
-  transform: translateY(16px);
+    transform: translateY(16px);
 }
+
 /* ANIMATION */
 .menu-btn.open .menu-btn__burger {
-  transform: translateX(-50px);
-  background: transparent;
-  box-shadow: none;
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
 }
+
 .menu-btn.open .menu-btn__burger::before {
-  transform: rotate(45deg) translate(35px, -35px);
+    transform: rotate(45deg) translate(35px, -35px);
 }
+
 .menu-btn.open .menu-btn__burger::after {
-  transform: rotate(-45deg) translate(35px, 35px);
+    transform: rotate(-45deg) translate(35px, 35px);
 }
 
 html,
@@ -199,7 +206,6 @@ a:hover {
     text-align: center;
     color: #ffffff;
     background-color: #424651;
-    position: absolute;
 }
 
 #bottomFooter2 {
@@ -370,7 +376,7 @@ a #githubFooter:hover {
     border-radius: 15px;
     padding: 10px 20px;
     color: white;
-    box-shadow: 0px 5px 8px rgb(211,211,211);
+    box-shadow: 0px 5px 8px rgb(211, 211, 211);
     border: none;
     font-weight: 500;
 }
@@ -440,7 +446,7 @@ a #githubFooter:hover {
     border-radius: 15px;
     padding: 10px 20px;
     color: white;
-    box-shadow: 0px 5px 8px rgb(211,211,211);
+    box-shadow: 0px 5px 8px rgb(211, 211, 211);
     border: none;
     font-weight: 500;
 }
@@ -461,13 +467,13 @@ a #githubFooter:hover {
     width: 50%;
 }
 
-#maynoothTableOfContentsButton{
+#maynoothTableOfContentsButton {
     color: white;
     transition: 0.2s;
 }
 
 .projectTitleText {
-    font-size: 2em; 
+    font-size: 2em;
     font-weight: bolder;
 }
 
@@ -476,8 +482,32 @@ a #githubFooter:hover {
     color: #F3B541;
 }
 
-#cassellEmailForm > a:hover {
+#cassellEmailForm>a:hover {
     text-decoration: none;
+}
+
+@media (min-width: 1800px) {
+    .designToolsImg {
+        width: 350px;
+    }
+}
+
+@media (min-width: 1799px) and (max-width: 992px) {
+    .designToolsImg {
+        width: 350px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 768px) {
+    .designToolsImg {
+        width: 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    .designToolsImg {
+        width: 350px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
