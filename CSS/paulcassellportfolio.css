@@ -19,17 +19,27 @@
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .full-width-page #professionalPortfolio {
-        background: linear-gradient(175deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), #112F5D url('Images/dealerOnLogoFullWidthBanner-01.jpg') no-repeat scroll center / cover;
+        background: linear-gradient(175deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), #112F5D url('../Images/dealerOnLogoFullWidthBanner-01.jpg') no-repeat scroll center / cover;
+        padding: 265px 0 45px;
+        margin-top: 3em;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .full-width-page #professionalPortfolio {
+        background: linear-gradient(175deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), #112F5D url('../Images/dealerOnLogoFullWidthBanner-01.jpg') no-repeat scroll center / cover;
         padding: 300px 0 45px;
+        margin-top: 3em;
     }
 }
 
 @media (max-width: 991px) {
     .full-width-page #professionalPortfolio {
-        background: linear-gradient(175deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), #112F5D url('Images/dealerOnLogoFullWidthBanner-01.jpg?width=1200') no-repeat scroll center / cover;
+        background: linear-gradient(175deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), #112F5D url('../Images/dealerOnLogoFullWidthBanner-01.jpg?width=1200') no-repeat scroll 91% 50% / cover;
         padding: 200px 0 25px;
+        margin-top: 4em;
     }
 }
 
