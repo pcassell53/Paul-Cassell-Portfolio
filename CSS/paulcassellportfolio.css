@@ -1,3 +1,133 @@
+.full-width-page #professionalPortfolio h1 {
+    color: #fff;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bolder;
+}
+
+@media (min-width: 1200px) {
+    .full-width-page #professionalPortfolio h1 {
+        font-size: 46px;
+        width: 1145px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .full-width-page #professionalPortfolio h1 {
+        width: 970px;
+    }
+}
+
+@media (min-width: 992px) {
+    .full-width-page #professionalPortfolio {
+        background: linear-gradient(175deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), #112F5D url('Images/dealerOnLogoFullWidthBanner-01.jpg') no-repeat scroll center / cover;
+        padding: 300px 0 45px;
+    }
+}
+
+@media (max-width: 991px) {
+    .full-width-page #professionalPortfolio {
+        background: linear-gradient(175deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .9)), #112F5D url('Images/dealerOnLogoFullWidthBanner-01.jpg?width=1200') no-repeat scroll center / cover;
+        padding: 200px 0 25px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .full-width-page #professionalPortfolio h1 {
+        width: 750px;
+    }
+}
+
+.personalWorkHomepage {
+    background-color: #009FFD;
+}
+
+.professionalWorkHomepage {
+    background-color: #112F5D;
+}
+
+.featured-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.featured-container .featured-item-1,
+.featured-container .featured-item-2 {
+    width: 50%;
+}
+
+@media (min-width: 992px) {
+    .featured-container .featured-item-1 {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .featured-container .featured-item-1 {
+        padding: 1em;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .featured-container .featured-item-1,
+    .featured-container .featured-item-2 {
+        width: 100%;
+    }
+}
+
+.taglineText>h1 {
+    font: 3rem;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232A2A72' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232A2A72' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev {
+    left: -20px;
+    top: 50%;
+}
+
+.carousel-control-next {
+    right: -20px;
+    top: 50%;
+}
+
+.portfolioButton {
+    margin-bottom: 20px;
+}
+
+.larger {
+    font-size: 120%;
+}
+
+.lead {
+    font-size: 140%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
 .navbar-light .navbar-toggler {
     border-color: rgba(0, 0, 0, 0);
 }
@@ -58,7 +188,7 @@
 
 html,
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     padding: 0;
     overflow-x: hidden;
@@ -66,8 +196,7 @@ body {
 }
 
 hr {
-    width: 80%;
-    border-top: 10px double rgba(0, 0, 0, 0.5);
+    border-top: 10px double #2A2A72;
 }
 
 a:hover {
@@ -84,8 +213,10 @@ a:hover {
     padding-bottom: 100px;
 }
 
-#introRow {
+.introRow {
     margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #graphicDesignTopRow {
@@ -93,7 +224,7 @@ a:hover {
 }
 
 #contactFullRow {
-    margin-top: 80px;
+    margin-top: 105px;
 }
 
 #myNameIs {
@@ -122,11 +253,11 @@ a:hover {
     padding-bottom: 100px;
 }
 
-#secondRow {
+.secondRow {
     padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 20px;
-    background-color: #96BDC6;
+    background: #FFA400;
 }
 
 #thirdRow {
@@ -194,10 +325,6 @@ a:hover {
     -webkit-transform: skew(-10deg);
 }
 
-#cassellLogo {
-    width: 70%;
-}
-
 #introductionSVG {
     width: 60%;
 }
@@ -205,13 +332,13 @@ a:hover {
 #bottomFooter {
     text-align: center;
     color: #ffffff;
-    background-color: #424651;
+    background-color: #2A2A72;
 }
 
 #bottomFooter2 {
     text-align: center;
     color: #ffffff;
-    background-color: #424651;
+    background-color: #2A2A72;
     position: absolute;
     margin-top: 80px;
 }
@@ -258,20 +385,6 @@ a #githubFooter:hover {
     border-color: white;
 }
 
-@-moz-document url-prefix() {
-    #cassellLogo {
-        width: 245px;
-    }
-
-    .skillsLogos {
-        width: 245px;
-    }
-
-    #adobeToolbox {
-        width: 245px;
-    }
-}
-
 .skillsLogos {
     width: 50%;
     margin-top: 10px;
@@ -285,22 +398,19 @@ a #githubFooter:hover {
 .projectTitle {
     font-weight: 700;
     font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 20px;
 }
 
 #hAboutMeText {
     font-size: 30px;
     font-weight: 500;
-    color: #FF5964;
+    color: #FFA400;
 }
 
 #iAboutMeText {
     font-size: 30px;
     font-weight: 500;
-    color: #96BDC6;
+    color: #FFA400;
 }
 
 #aboutMeTitle {
@@ -335,7 +445,7 @@ a #githubFooter:hover {
 }
 
 #aboutMeColumn {
-    margin-top: 75px;
+    margin-top: 105px;
 }
 
 .logoPicture {
@@ -355,24 +465,28 @@ a #githubFooter:hover {
 }
 
 .cassellButton {
-    background-color: black;
+    background-color: #FFA400;
+    border: 3px solid #FFA400;
     transition: 0.4s;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 5px;
     padding: 5px 15px;
-    color: white;
+    color: #fff;
+    font-weight: bolder;
 }
 
 .cassellButton:hover {
-    background-color: white;
-    color: black;
+    background-color: #fff;
+    color: #000;
+    border-color: #FFA400;
     cursor: pointer;
+    font-weight: bolder;
 }
 
 .maynoothButton {
     background-color: #842C68;
     transition: 0.4s;
-    font-size: 20px;
+    font-size: 14px;
     border-radius: 15px;
     padding: 10px 20px;
     color: white;
@@ -408,8 +522,12 @@ a #githubFooter:hover {
 }
 
 .cassellEmailCard {
-    border: 1px solid black;
-    box-shadow: 5px 10px;
+    border: 2px solid #000;
+    box-shadow:
+        inset 0 0 0 4px #009FFD,
+        inset 0 0 0 6px #000,
+        inset 0 0 0 10px #2A2A72,
+        inset 0 0 0 12px #000;
 }
 
 .processBox {
@@ -438,13 +556,12 @@ a #githubFooter:hover {
 
 #maynoothTableOfContents {
     border-radius: 20px;
-    padding: 30px;
-    margin-bottom: 20px;
+    margin-top: 1em;
+    margin-bottom: 2em;
     background-color: #842C68;
     transition: 0.4s;
-    font-size: 20px;
     border-radius: 15px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     color: white;
     box-shadow: 0px 5px 8px rgb(211, 211, 211);
     border: none;
@@ -467,7 +584,7 @@ a #githubFooter:hover {
     width: 50%;
 }
 
-#maynoothTableOfContentsButton {
+.maynoothTableOfContentsButton {
     color: white;
     transition: 0.2s;
 }
@@ -477,7 +594,7 @@ a #githubFooter:hover {
     font-weight: bolder;
 }
 
-#maynoothTableOfContentsButton:hover {
+.maynoothTableOfContentsButton:hover {
     text-decoration: none;
     color: #F3B541;
 }
@@ -486,9 +603,25 @@ a #githubFooter:hover {
     text-decoration: none;
 }
 
+#cassellLogo {
+    height: 45px;
+    margin-top: 10px;
+}
+
 @media (min-width: 1800px) {
     .designToolsImg {
         width: 350px;
+    }
+
+    #cassellLogo {
+        height: 45px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navContainer {
+        max-width: 1400px;
     }
 }
 
@@ -496,24 +629,151 @@ a #githubFooter:hover {
     .designToolsImg {
         width: 350px;
     }
+
+    #cassellLogo {
+        height: 45px;
+        margin-top: 10px;
+    }
 }
 
-@media (min-width: 992px) and (max-width: 768px) {
+@media (min-width: 1800px) {
+    .openingTagline {
+        padding: 15em 5em;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1799px) {
+    .openingTagline {
+        padding: 15em 3em;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+    .openingTagline {
+        padding: 15em 0em;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .openingTagline {
+        padding: 5em 1em;
+    }
+}
+
+@media (min-width: 768px) {
+    .taglineText {
+        background-color: #fff;
+        border: 2px solid #000;
+        box-shadow:
+            inset 0 0 0 4px #009FFD,
+            inset 0 0 0 6px #000,
+            inset 0 0 0 10px #2A2A72,
+            inset 0 0 0 12px #000;
+        border-radius: 20px;
+        padding: 3em;
+    }
+
+    .designToolsOutline {
+        background-color: #fff;
+        border: 2px solid #000;
+        box-shadow:
+            inset 0 0 0 4px #009FFD,
+            inset 0 0 0 6px #000,
+            inset 0 0 0 10px #2A2A72,
+            inset 0 0 0 12px #000;
+        border-radius: 20px;
+        padding: 2em;
+        margin: 2em;
+    }
+
+    .designToolsOutlineHomepage {
+        background-color: #fff;
+        border: 2px solid #000;
+        box-shadow:
+            inset 0 0 0 4px #009FFD,
+            inset 0 0 0 6px #000,
+            inset 0 0 0 10px #2A2A72,
+            inset 0 0 0 12px #000;
+        border-radius: 20px;
+        padding: 2em;
+        margin: 2em;
+    }
+}
+
+@media (max-width: 767px) {
+    .openingTagline {
+        padding: 4em 1em;
+    }
+
+    .taglineText {
+        background-color: #fff;
+        border: 2px solid #000;
+        box-shadow:
+            inset 0 0 0 4px #2A2A72,
+            inset 0 0 0 6px #000,
+            inset 0 0 0 10px #009FFD,
+            inset 0 0 0 12px #000;
+        border-radius: 20px;
+        padding: 2em;
+    }
+
+    .designToolsOutline {
+        background-color: #fff;
+        border: 2px solid #000;
+        box-shadow:
+            inset 0 0 0 4px #009FFD,
+            inset 0 0 0 6px #000,
+            inset 0 0 0 10px #2A2A72,
+            inset 0 0 0 12px #000;
+        border-radius: 20px;
+        padding: 2em;
+    }
+
+    .designToolsOutlineHomepage {
+        background-color: #fff;
+        border: 2px solid #000;
+        box-shadow:
+            inset 0 0 0 4px #009FFD,
+            inset 0 0 0 6px #000,
+            inset 0 0 0 10px #2A2A72,
+            inset 0 0 0 12px #000;
+        border-radius: 20px;
+        padding: 2em;
+        margin: 0.5em;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 768px) {
     .designToolsImg {
         width: 350px;
     }
+
+    #cassellLogo {
+        height: 45px;
+        margin-top: 10px;
+    }
+
+
 }
 
 @media (max-width: 767px) {
     .designToolsImg {
         width: 350px;
     }
+
+    #cassellLogo {
+        height: 30px !important;
+        margin-top: 12px !important;
+        margin-bottom: 10px !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     #bottomContactSection {
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 0px;
+        padding-bottom: 50px;
     }
 
     #mySkills {
@@ -524,7 +784,7 @@ a #githubFooter:hover {
         font-size: 40px;
     }
 
-    #secondRow {
+    .secondRow {
         margin-top: 0;
     }
 
@@ -553,10 +813,7 @@ a #githubFooter:hover {
     .projectTitle {
         font-weight: 700;
         font-size: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 20px;
     }
 }
 
