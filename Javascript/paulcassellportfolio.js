@@ -119,3 +119,6 @@ const playlist = [
   // Load the YouTube Iframe API
   loadYouTubeIframeAPI();
 // Youtube Playlist
+
+// Card Flip
+function flipCard(card) {card.classList.toggle('flipped');}
