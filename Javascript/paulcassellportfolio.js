@@ -42,57 +42,59 @@ const playlist = [
     { videoId: 'kcC86GYGmC4', title: 'Video 3' },
     { videoId: 'ezryI4QkXEE', title: 'Video 4' }
     // Add more videos to the playlist as needed
-  ];
+];
 
-  const playerContainer = document.getElementById('player');
-  const playlistContainer = document.getElementById('playlist');
-  let player;
+const playerContainer = document.getElementById('player');
+const playlistContainer = document.getElementById('playlist');
+let player;
 
-  // Create video items in the playlist
-  playlist.forEach(function (video) {
+// Create video items in the playlist
+playlist.forEach(function(video) {
     createPlaylistItem(video, playlistContainer);
-  });
+});
 
-  // Load the YouTube Iframe API asynchronously
-  function loadYouTubeIframeAPI() {
+// Load the YouTube Iframe API asynchronously
+function loadYouTubeIframeAPI() {
     const tag = document.createElement('script');
     tag.src = 'https://www.youtube.com/iframe_api';
     const firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-  }
+}
 
-  // Called when the YouTube Iframe API is ready
-  function onYouTubeIframeAPIReady() {
+// Called when the YouTube Iframe API is ready
+function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
-      height: '100%',
-      width: '100%',
-      playerVars: {
-        rel: 0
-      },
-      events: {
-        onReady: onPlayerReady
-      }
+        height: '100%',
+        width: '100%',
+        playerVars: {
+            rel: 0
+        },
+        events: {
+            onReady: onPlayerReady
+        }
     });
-  }
+}
 
-  // Called when the player is ready to play videos
-  function onPlayerReady() {
-    // Optional: Autoplay the first video in the playlist
-    if (playlist.length > 0) {
-      loadVideo(playlist[0].videoId);
-    }
-  }
+// Called when the player is ready to play videos
+function onPlayerReady() {
+    // Auto play the first video in the playlist if needed
+    // Uncomment the following line to enable autoplay
+    // if (playlist.length > 0) {
+    //     loadVideo(playlist[0].videoId);
+    // }
+}
 
-  // Function to load a video into the player
-  function loadVideo(videoId) {
+// Function to load a video into the player
+function loadVideo(videoId) {
     player.loadVideoById(videoId);
-  }
+}
 
-  // Function to create a playlist item
-  function createPlaylistItem(video, container) {
+// Function to create a playlist item
+function createPlaylistItem(video, container) {
     // Create a list item for each video
     const listItem = document.createElement('li');
     listItem.dataset.videoId = video.videoId;
+    listItem.classList.add('playlist-item'); 
 
     // Create a thumbnail image element
     const thumbnail = document.createElement('img');
@@ -108,16 +110,16 @@ const playlist = [
     listItem.appendChild(videoTitle);
 
     // Add a click event listener to load the video
-    listItem.addEventListener('click', function () {
-      loadVideo(video.videoId);
+    listItem.addEventListener('click', function() {
+        loadVideo(video.videoId);
     });
 
     // Append the list item to the container
     container.appendChild(listItem);
-  }
+}
 
-  // Load the YouTube Iframe API
-  loadYouTubeIframeAPI();
+// Load the YouTube Iframe API
+loadYouTubeIframeAPI();
 // Youtube Playlist
 
 // Card Flip
