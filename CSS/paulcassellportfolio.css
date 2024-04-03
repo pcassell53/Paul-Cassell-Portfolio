@@ -562,15 +562,14 @@ color: #FFA400;
 #aboutMeTitle {
 font-weight: 700;
 text-align: center;
-font-size: 32px;
 }
 #aboutMeProfessional {
 font-weight: 700;
-font-size: 24px;
+/*font-size: 24px;*/
 }
 #aboutMePersonal {
 font-weight: 700;
-font-size: 24px;
+/*font-size: 24px;*/
 }
 #backgroundLink {
 text-decoration: underline;
