@@ -70,19 +70,18 @@ function onYouTubeIframeAPIReady() {
             rel: 0
         },
         events: {
-            onReady: onPlayerReady
+            // onReady: onPlayerReady // Commented out to prevent autoplay
         }
     });
 }
 
 // Called when the player is ready to play videos
-function onPlayerReady() {
-    // Auto play the first video in the playlist if needed
-    // Uncomment the following line to enable autoplay
-    // if (playlist.length > 0) {
-    //     loadVideo(playlist[0].videoId);
-    // }
-}
+// function onPlayerReady() {
+//     // Optional: Autoplay the first video in the playlist
+//     if (playlist.length > 0) {
+//         loadVideo(playlist[0].videoId);
+//     }
+// }
 
 // Function to load a video into the player
 function loadVideo(videoId) {
