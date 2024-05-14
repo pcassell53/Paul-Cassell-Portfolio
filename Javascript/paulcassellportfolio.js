@@ -70,18 +70,18 @@ function onYouTubeIframeAPIReady() {
             rel: 0
         },
         events: {
-            // onReady: onPlayerReady // Commented out to prevent autoplay
+            onReady: onPlayerReady
         }
     });
 }
 
 // Called when the player is ready to play videos
-// function onPlayerReady() {
-//     // Optional: Autoplay the first video in the playlist
-//     if (playlist.length > 0) {
-//         loadVideo(playlist[0].videoId);
-//     }
-// }
+function onPlayerReady() {
+    // Load the first video but don't autoplay
+    if (playlist.length > 0) {
+        loadVideo(playlist[0].videoId);
+    }
+}
 
 // Function to load a video into the player
 function loadVideo(videoId) {
@@ -93,7 +93,7 @@ function createPlaylistItem(video, container) {
     // Create a list item for each video
     const listItem = document.createElement('li');
     listItem.dataset.videoId = video.videoId;
-    listItem.classList.add('playlist-item'); 
+    listItem.classList.add('playlist-item');
 
     // Create a thumbnail image element
     const thumbnail = document.createElement('img');
