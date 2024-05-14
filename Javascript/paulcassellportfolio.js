@@ -47,6 +47,7 @@ const playlist = [
 const playerContainer = document.getElementById('player');
 const playlistContainer = document.getElementById('playlist');
 let player;
+let firstLoad = true; // Track if it's the first load
 
 // Create video items in the playlist
 playlist.forEach(function(video) {
@@ -70,16 +71,18 @@ function onYouTubeIframeAPIReady() {
             rel: 0
         },
         events: {
-            onReady: onPlayerReady
+            onReady: onPlayerReady,
+            onStateChange: onPlayerStateChange
         }
     });
 }
 
 // Called when the player is ready to play videos
-function onPlayerReady() {
-    // Load the first video but don't autoplay
-    if (playlist.length > 0) {
+function onPlayerReady(event) {
+    // Load the first video but don't autoplay if it's the first load
+    if (playlist.length > 0 && firstLoad) {
         loadVideo(playlist[0].videoId);
+        firstLoad = false;
     }
 }
 
@@ -115,6 +118,15 @@ function createPlaylistItem(video, container) {
 
     // Append the list item to the container
     container.appendChild(listItem);
+}
+
+// Called when the player state changes
+function onPlayerStateChange(event) {
+    // If the video is unstarted (just loaded), pause it and mute it
+    if (event.data === YT.PlayerState.UNSTARTED) {
+        player.pauseVideo();
+        player.mute();
+    }
 }
 
 // Load the YouTube Iframe API
