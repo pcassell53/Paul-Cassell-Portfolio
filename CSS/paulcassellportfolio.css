@@ -268,10 +268,16 @@
 
 .personalWorkHomepage {
     background-color: #009FFD;
+    padding: 8em 0px;
 }
 
 .professionalWorkHomepage {
     background-color: #112F5D;
+    padding: 8em 0px;
+}
+
+.homepageDealerOnLogo {
+    width: 400px;
 }
 
 .featured-container {
@@ -404,6 +410,134 @@
     color: #fff;
 }
 
+.margin-bottom_5x {
+    margin-bottom: 0.5em;
+}
+
+.margin-bottom-1x {
+    margin-bottom: 1em;
+}
+
+.margin-bottom-2x {
+    margin-bottom: 2em;
+}
+
+.margin-bottom-3x {
+    margin-bottom: 3em;
+}
+
+.margin-bottom-4x {
+    margin-bottom: 4em;
+}
+
+.margin-top_5x {
+    margin-top: 0.5em;
+}
+
+.margin-top-1x {
+    margin-top: 1em;
+}
+
+.margin-top-2x {
+    margin-top: 2em;
+}
+
+.margin-top-3x {
+    margin-top: 3em;
+}
+
+.margin-top-4x {
+    margin-top: 4em;
+}
+
+.margin-left_5x {
+    margin-left: 0.5em;
+}
+
+.margin-left-1x {
+    margin-left: 1em;
+}
+
+.margin-left-2x {
+    margin-left: 2em;
+}
+
+.margin-left-3x {
+    margin-left: 3em;
+}
+
+.margin-left-4x {
+    margin-left: 4em;
+}
+
+.margin-right_5x {
+    margin-right: 0.5em;
+}
+
+.margin-right-1x {
+    margin-right: 1em;
+}
+
+.margin-right-2x {
+    margin-right: 2em;
+}
+
+.margin-right-3x {
+    margin-right: 3em;
+}
+
+.margin-right-4x {
+    margin-right: 4em;
+}
+
+.pad-bottom_5x {
+    padding-bottom: 0.5em;
+}
+
+.pad-bottom-1x {
+    padding-bottom: 1em;
+}
+
+.pad-bottom-2x {
+    padding-bottom: 2em;
+}
+
+.pad-top_5x {
+    padding-top: 0.5em;
+}
+
+.pad-top-1x {
+    padding-top: 1em;
+}
+
+.pad-top-2x {
+    padding-top: 2em;
+}
+
+.pad-left_5x {
+    padding-left: 0.5em;
+}
+
+.pad-left-1x {
+    padding-left: 1em;
+}
+
+.pad-left-2x {
+    padding-left: 2em;
+}
+
+.pad-right_5x {
+    padding-right: 0.5em;
+}
+
+.pad-right-1x {
+    padding-right: 1em;
+}
+
+.pad-right-2x {
+    padding-right: 2em;
+}
+
 .navbar-light .navbar-toggler {
     border-color: rgba(0, 0, 0, 0);
 }
@@ -490,9 +624,13 @@ a:hover {
 }
 
 .introRow {
-    margin-top: 60px;
+    margin: 9em 0px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.personalProjectsBtn {
+    font-size: 20px;
 }
 
 #graphicDesignTopRow {
